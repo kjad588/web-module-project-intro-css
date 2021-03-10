@@ -101,27 +101,37 @@ nav {
 
 .image {
     width: 25%;
-    height: 49%;
+    height: 30%;
     margin: auto;
 }
 
 .image img {
     width: 33%;
-    margin: auto;
+    margin: 0 auto;
+}
+
+.image p {
+    font-size: .75rem;
 }
 
 #neutral {
-    background-color: #DDB9A3;  
+    background-color: #DDB9A3;
+    color: white;
+    margin: auto;  
+    height: 30%;
 }
 
 #body {
     height: 500px;
+    margin: auto;
 }
 
 /* FOOTER */
 
 #footer-image {
     background-image: url("assets/footer_img.jpg");
+    width: 100%;
+    height: 50%;
 }
 footer {
     height: 200px;

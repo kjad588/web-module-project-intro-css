@@ -107,18 +107,23 @@ nav {
 
 .image img {
     width: 33%;
-    margin: 0 auto;
+    margin: 0 25%;
 }
 
 .image p {
     font-size: .75rem;
+    margin: auto;
 }
 
 #neutral {
     background-color: #DDB9A3;
     color: white;
-    margin: auto;  
+    margin: 20px;  
     height: 30%;
+}
+
+#neutral p {
+    margin: auto;
 }
 
 #body {
@@ -129,11 +134,14 @@ nav {
 /* FOOTER */
 
 #footer-image {
-    background-image: url("assets/footer_img.jpg");
     width: 100%;
     height: 50%;
 }
 footer {
+    background-image: url("assets/footer_img.jpg");
+    background-position: center;
+    background-size: cover;
     height: 200px;
+
 }
 
